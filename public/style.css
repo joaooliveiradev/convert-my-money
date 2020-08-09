@@ -1,0 +1,31 @@
+h1{
+    display: block;
+    text-align: center;
+}
+h1 img{
+    margin-top: 15px;
+    width: 489px;
+    height: 57px;
+    margin-bottom: 5px;
+}
+form{
+    text-align: center;
+}
+input{
+    margin-top: 13px;
+    padding-left: 10px;
+    height: 25px;
+}
+input[type=submit]{
+    width: 185px;
+    height: 30px;
+}
+
+.result {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
+}
