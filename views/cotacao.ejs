@@ -1,10 +1,20 @@
 <%- include('header') %>
-<div class="result">
-    <% if(error) { %>
-        <%= error %>
-    <% } else { %>
-        <%= quantidade %> dolares na cotacao <%= cotacao %> é igual a: <%= conversao %> reais
-   <% } %>
-    
+<div class="container">
+    <div class="result">
+        <div class="logo">
+            <h1><a href="/"><img src="/images/logo.png" alt="Logo Convert My Money" class="logo"></a></h1>
+        </div>
+        <% if(error) { %>
+            <%= error %>
+        <% } else { %>
+            <p class="resultText">Quantidade: R$ <%= quantidade %></p>
+            <p style="margin-bottom: 20px;" class="resultText" >Conversão:  $ <%= conversao %></p> 
+         
+       <% } %>
+
+        
+        <a class="buttonVoltar" href="/">Voltar</a>
+    </div>
 </div>
+
 <%- include('footer') %>

@@ -1,11 +1,34 @@
 <%- include('header') %>
 
-<form method="GET" action="/cotacao">
-    <input name="cotacao"  placeholder="Cotação dolar">
-    <br>
-    <input name="quantidade" placeholder="Cotação dolares">
-    <br>
-    <input type="submit" value="Converter!">
-</form>
+
+<div class="container">
+    <form method="GET" action="/cotacao">
+        <div class="logo">
+            <h1><a href="/"><img src="/images/logo.png" alt="Logo Convert My Money" class="logo"></a></h1>
+        </div>
+        <main>
+            <div class="image-converter">
+                <img src="/images/money-converter.png">
+            </div>
+            <div class="inputs">
+                <div class="input" style="float: left;">
+                    <div class="americanFlag">
+                        <img src="/images/united-states-flag-icon.png">
+                    </div>
+                    <input class="inputValue" name="cotacao" placeholder="Cotação Dólar" >
+                </div>
+                <div class="input" style="float: left">
+                    <div class="americanFlag">
+                        <img src="/images/brazil-flag-icon.png">
+                    </div>
+                    <input class="inputValue" name="quantidade" placeholder="Quantidade" >
+                </div>
+                
+                <input type="submit" value="Converter!">
+            </div>
+        </main>
+    </form>
+</div>
+
 
 <%- include('footer') %>

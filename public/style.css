@@ -1,24 +1,76 @@
-h1{
-    display: block;
-    text-align: center;
+body{
+    background-color: #00AD50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
 }
-h1 img{
-    margin-top: 15px;
-    width: 489px;
-    height: 57px;
-    margin-bottom: 5px;
+.container{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 12px 12px 13px 0px rgba(0,102,48,1);
 }
+
 form{
     text-align: center;
 }
-input{
-    margin-top: 13px;
-    padding-left: 10px;
-    height: 25px;
+.logo h1{
+    display: block;
+    text-align: center;
+}
+.logo h1 img{
+    margin-top: 5px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+main{
+    width: 100%;
+}
+.image-converter{
+    float: left;
+    width: 50%;
+}
+.image-converter img{
+    width: 100%;
+}
+.inputs{
+    float: left;
+    width: 50%;
+}
+.inputs img{
+    width: 64px;
+}
+.americanFlag{
+    width: 15%;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+
+.inputValue{
+    background-color: #E3EBFF;
+    margin-top: 10px;
+    padding-right: 10px;
+    height: 39px;
+    font-size: 16px;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid #ccdaff;
 }
 input[type=submit]{
-    width: 185px;
-    height: 30px;
+    border-radius: 5px;
+    width: 160px;
+    height: 46px;
+    margin-top: 10px;
+    border: 1px solid #ccdaff;
+    background-color: #719BFE;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .result {
@@ -26,6 +78,23 @@ input[type=submit]{
     display: block;
     font-size: 24px;
     padding: 10px;
-    border: 1px solid #d8d8d8;
+
     background: #fdfdfd;
+}
+.resultText{
+    font-size: 18px;
+
+}
+.buttonVoltar{
+    border-radius: 5px;
+    width: 160px;
+    height: 46px;
+    border: 1px solid #ccdaff;
+    background-color: #719BFE;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
